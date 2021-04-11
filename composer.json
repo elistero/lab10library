@@ -1,0 +1,32 @@
+{
+    "name": "elistero/lab10library",
+    "description": "lab10",
+    "type": "library",
+	"license": "-",
+	"authors": [
+		{
+			"name": "Elizaveta",
+			"email": "elizaveta@gmail.com"
+		}
+	],
+	
+	"minimum-stability": "dev",
+	
+	"autoload":{
+		"psr-4":{
+			"Krauskeite\\": "Krauskeite"
+		}
+	},
+	
+    "require": {
+		 "rok9ru/trpo-core": "2.0"
+	},
+
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
