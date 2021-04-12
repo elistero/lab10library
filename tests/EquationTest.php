@@ -9,8 +9,8 @@ class EquationTest extends TestCase
     public function testEquation()
     {
         $equation = new Equation();
-        $this->assertEquals([-12], $equation->li_solve(6, 72));
-        $this->assertEquals([12], $equation->li_solve(-6, 72));
+        $this->assertEquals([24], $equation->li_solve(3, -72));
+        $this->assertEquals([18], $equation->li_solve(-4, 72));
         $this->assertEquals([1], $equation->li_solve(-1, 1));
     }
 
