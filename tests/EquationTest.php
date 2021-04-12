@@ -10,6 +10,7 @@ class EquationTest extends TestCase
     {
         $equation = new Equation();
         $this->assertEquals([-12], $equation->li_solve(6, 72));
+        $this->assertEquals([12], $equation->li_solve(-6, 72));
         $this->assertEquals([1], $equation->li_solve(-1, 1));
     }
 
